@@ -35,6 +35,23 @@ button {
   background-color: #141d2f;
   color: white;
 }
+
 .dark-mode .profile-container {
   background-color: #1e2a47;
+}
+
+#btn-mode {
+  margin-top: 20px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #e2e8f0;
+  border-radius: 5px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.dark-mode #btn-mode {
+  background-color: #2b3442;
+  color: white;
 }
