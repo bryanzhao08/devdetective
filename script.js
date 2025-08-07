@@ -1,3 +1,4 @@
+console.log("JS loaded");
 const url = "https://api.github.com/users/";
 const input = document.getElementById("input");
 const button = document.getElementById("submit");
